@@ -20,7 +20,7 @@ function calculateTotalPrice() {
 function applyPromoCode() {
     const getPromoCode = document.getElementById('promo-code').value;
     document.getElementById('promo-code').value = '';
-    const total = parseInt(document.getElementById('total').innerText)
+    const total = parseInt(document.getElementById('total').innerText);
     const totalPrice=parseInt(document.getElementById('total-price').innerText);
     if (getPromoCode == 'stevekaku') {
         const savePrice = totalPrice * 0.2;

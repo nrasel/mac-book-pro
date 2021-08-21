@@ -9,8 +9,8 @@
 }
 .promo-comde-btn{
     margin-top: 20px;
-    background: rgb(255, 255, 255);
-    padding: 6px 10px;
+    background: #ffffff;
+    padding: 4px 8px;
     position: relative;
     border-radius: 50px;
     border: 1px solid #a5a9b1c7;
@@ -20,7 +20,7 @@
     padding: 8px;
     width: calc(100% - 140px);
     outline: none;
-    font-size: 28px;
+    font-size: 15px;
 }
 .promo-submit{
     position: absolute;
