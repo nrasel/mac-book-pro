@@ -30,17 +30,17 @@
                        <div>
                             <h4>Memory</h4>
                             <div class="memory-button">
-                                <button type="button" class="btn btn-outline-dark me-2">8GB unified memory</button>
-                                <button type="button" class="btn btn-outline-dark">16GB unified memory</button>
+                                <button id="memory-8-gb" type="button" class="btn btn-outline-dark me-2">8GB unified memory</button>
+                                <button id="memory-16-gb" type="button" class="btn btn-outline-dark">16GB unified memory</button>
                             </div>
                        </div>
                         <!-- storage option -->
                         <div class="py-3">
                             <h4>Storage</h4>
                             <div class="storage-button">
-                                <button type="button" class="btn btn-outline-dark me-2">256GB SSD storage</button>
-                                <button type="button" class="btn btn-outline-dark">512GB SSD storage</button>
-                                <button type="button" class="btn btn-outline-dark">1 TB SSD storage</button>
+                                <button id="storage-256-gb" type="button" class="btn btn-outline-dark me-2">256GB SSD storage</button>
+                                <button id="storage-512-gb" type="button" class="btn btn-outline-dark me-2">512GB SSD storage</button>
+                                <button id="storage-1-tb" type="button" class="btn btn-outline-dark">1 TB SSD storage</button>
                             </div>
                         </div>
 
@@ -48,39 +48,48 @@
                         <div>
                             <h4>Choose your delivery option</h4>
                             <div class="memory-button">
-                                <button type="button" class="btn btn-outline-dark me-2">Friday,Aug 25 FREE Prime Delivery</button>
-                                <button type="button" class="btn btn-outline-dark">Friday, Aug 21 Delivery Change $20</button>
+                                <button id="friday-aug-25" type="button" class="btn btn-outline-dark me-2">Friday,Aug 25 FREE Prime Delivery</button>
+                                <button id="friday-aug-21" type="button" class="btn btn-outline-dark">Friday, Aug 21 Delivery Change $20</button>
                             </div>
                         </div>
 
-
+                      
                         <!-- pricing option -->
                         <div class="total-price-of-mac mt-4">
-                            <h4><span>Best Price:</span><span id="best-price"><span>$</span> 1299</span></h4>
-                            <h4><span>Extra Memory Cost:</span><span id="memory-cost"><span>$</span> 0</span></h4>
-                            <h4><span>Extra Storage Cost:</span><span id="storage-cost"><span>$</span> 0</span></h4>
-                            <h4 class="delivery-border"><span>Delivery charge:</span><span id="delevery-charge"><span>$</span> 0</span></h4>
 
-                            <h4><span>Total Price:</span><span id="total-price"><span>$</span> 1299</span></h4>
+                                <h4><span>Best Price:</span><div> $<span id="best-price">1299</span></div></h4>
+
+                                <h4><span>Extra memory cost:</span><div> $<span id="memory-cost">0</span></div></h4>
+                           
+                            <h4><span>Extra Storage Cost:</span><div> $<span id="storage-cost">0</span></div></h4>
+                           
+                            <h4 class="delivery-border"><span>Delivery charge:</span><div> $<span id="delevery-charge">0</span></div></h4>
+
+                            <h4><span>Total Price:</span><div> $<span id="total-price">1299</span></div></h4>
                         </div>
 
                         <!-- promo code option -->
 
                         <h3 class="mt-5">Add Promo Code</h3>
                         <div class="promo-comde-btn">
-                            <form action="" class="promo-form">
-                                <input type="text" class="promo-input" name="" id="">
-                                <input class="promo-submit" type="submit" value="Apply">
-                            </form>
+                            <div action="" class="promo-form">
+                                <input type="text" class="promo-input" name="" id="promo-code">
+                                <input id="promo-code-submit" class="promo-submit" type="submit" value="Apply">
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="error-msg" id="error-msg">Promo code does't match</p>
+                            <p class="success-msg" id="success-msg">You got 20% discount!</p>
                         </div>
                        
                     </div>
                 </div>
                 <hr>
 
-                    <!-- total -->
+                    <!-- total  -->
                 <div class="text-center">
-                    <h3>Total: <span>$1299</span> </h3>
+                    <h3>Total: $<span id="total">1299</span> </h3>
                 </div>
             </div>
         </section>

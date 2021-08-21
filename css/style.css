@@ -20,6 +20,7 @@
     padding: 8px;
     width: calc(100% - 140px);
     outline: none;
+    font-size: 28px;
 }
 .promo-submit{
     position: absolute;
@@ -35,4 +36,14 @@
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
+}
+.error-msg{
+    font-size: 26px;
+    display: none;
+    margin-top: 14px;
+}
+.success-msg{
+    font-size: 26px;
+    display: none;
+    margin-top: 14px;
 }
